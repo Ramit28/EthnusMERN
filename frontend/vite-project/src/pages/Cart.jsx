@@ -28,11 +28,12 @@ const Cart = () => {
             quantity: item.quantity
           }, {
             headers: {
-              Authorization: `Bearer ${token}`
+             Authorization: `Bearer ${token}`
             }
           });
         }
       }
+      
       alert("Tickets purchased!");
       localStorage.removeItem("cart");
       setCart([]);

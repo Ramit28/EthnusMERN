@@ -65,15 +65,14 @@ header {
 }
 
 /* Black Navigation Bar with Gold Text */
-.nav{
-  background-color: #000\;
-}
+
 nav {
   display: flex;
   justify-content: center;
   gap: 30px;
   background-color: #000000;
   padding: 16px;
+  
 }
 
 nav a, nav button {
